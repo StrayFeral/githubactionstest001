@@ -1,7 +1,10 @@
-on: push
+name: "Hello World!"
+
+on: workflow-dispatch
 
 jobs:
   ohhi:
+    name: "Oh Hiiiiiii !"
     runs-on: ubuntu-latest
     steps:
       - run: echo "oh hiiii !"
