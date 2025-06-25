@@ -1,2 +1,8 @@
 on: push
 
+jobs:
+  ohhi:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "oh hiiii !"
+
