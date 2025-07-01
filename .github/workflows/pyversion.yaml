@@ -1,0 +1,12 @@
+name: "Display Python Version"
+
+on: push
+
+jobs:
+  pyversion:
+    name: "Display Python version now"
+    runs-on: ubuntu-latest
+    steps:
+      - run: python --version
+
+
